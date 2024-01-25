@@ -42,3 +42,7 @@ for i in range(0, size, 2):
     # Step 5: Print characters at even indices
     print("index[", i, "]", word[i])
     
+# Step 6: Accept input string from a user  
+word = input('Enter a word: ')
+# Step 7: Print the original string
+print("Original String:", word)
