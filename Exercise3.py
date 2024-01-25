@@ -31,3 +31,14 @@ print("Original String:", word)
 
 # Step 3: Get the length of the string
 size = len(word)
+
+
+# Step 4: Iterate over each character of the string
+# Start: 0 to start with the first character
+# Stop: size because index starts with 0
+# Step: 2 to get the characters present at even index like 0, 2, 4
+print("Printing only even index chars")
+for i in range(0, size, 2):
+    # Step 5: Print characters at even indices
+    print("index[", i, "]", word[i])
+    
