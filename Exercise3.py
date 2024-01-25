@@ -51,3 +51,4 @@ print("Original String:", word)
 # Step 9: Iterate over the list and pick only even index chars
 characters = list(word)
 for char in characters[::2]:
+    print(char)
