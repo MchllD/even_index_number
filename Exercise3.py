@@ -46,3 +46,8 @@ for i in range(0, size, 2):
 word = input('Enter a word: ')
 # Step 7: Print the original string
 print("Original String:", word)
+
+# Step 8: Using list slicing
+# Step 9: Iterate over the list and pick only even index chars
+characters = list(word)
+for char in characters[::2]:
